@@ -138,7 +138,7 @@ def main():
             chat.append({"role": "assistant", "content": gpt_msg})
             # 判定
             judge_response = openai.ChatCompletion.create(
-                model = 'gpt-3.5-turbo',
+                model = 'gpt-4',
                 messages = chat,
                 functions = functions_list,
                 function_call = 'auto',
