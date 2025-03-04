@@ -125,7 +125,7 @@ def main():
                     finish(total_tokens, f)
             # 会話
             chat_response = openai.ChatCompletion.create(
-                model='gpt-4o',
+                model='gpt-4',
                 messages=chat,
                 #temperature=1.5,
                 #max_tokens=50
